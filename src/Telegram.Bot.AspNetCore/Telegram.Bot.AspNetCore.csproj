@@ -3,27 +3,25 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.3</Version>
+    <Version>1.0.0</Version>
     <Authors>Bohdan Pashkovskyi</Authors>
     <Description>Library to create Telegram Bots using ASP .NET Core projects</Description>
     <Company>Bohdan Pashkovskyi</Company>
     <Copyright>Bohdan Pashkovskyi</Copyright>
-    <PackageLicenseUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNet/blob/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNet</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNetCore</RepositoryUrl>
     <NeutralLanguage></NeutralLanguage>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <AssemblyVersion>0.0.3.0</AssemblyVersion>
-    <FileVersion>0.0.3.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageProjectUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNetCore</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" />
     <PackageReference Include="Rollbar" Version="2.2.0" />
     <PackageReference Include="Telegram.Bot" Version="14.10.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Telegram.Bot.Common\Telegram.Bot.Common.csproj" />
+    <PackageReference Include="Telegram.Bot.Common" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
