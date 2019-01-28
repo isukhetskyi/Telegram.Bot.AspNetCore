@@ -3,17 +3,17 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.3</Version>
+    <Version>0.0.5</Version>
     <Authors>Bohdan Pashkovskyi</Authors>
     <Description>Library to create Telegram Bots using ASP .NET Core projects</Description>
     <Company>Bohdan Pashkovskyi</Company>
     <Copyright>Bohdan Pashkovskyi</Copyright>
-    <PackageLicenseUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNet/blob/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNet</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/bpashkovskyi/Telegram.Bot.AspNetCore</RepositoryUrl>
     <NeutralLanguage></NeutralLanguage>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <AssemblyVersion>0.0.3.0</AssemblyVersion>
-    <FileVersion>0.0.3.0</FileVersion>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <FileVersion>0.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
