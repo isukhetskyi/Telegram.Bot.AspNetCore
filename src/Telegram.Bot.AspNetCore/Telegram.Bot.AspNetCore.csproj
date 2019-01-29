@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.0.5</Version>
+    <Version>0.0.6</Version>
     <Authors>Bohdan Pashkovskyi</Authors>
     <Description>Library to create Telegram Bots using ASP .NET Core projects</Description>
     <Company>Bohdan Pashkovskyi</Company>
