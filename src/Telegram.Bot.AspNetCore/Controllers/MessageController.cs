@@ -12,12 +12,12 @@ namespace Telegram.Bot.AspNetCore.Controllers
     public class MessageController : ControllerBase
     {
         private readonly IUpdatesHandler _updatesHandler;
+        private readonly IRollbar _rollbar;
 
-        public IRollbar Rollbar { get; set; }
-
-        public MessageController(IUpdatesHandler updatesHandler)
+        public MessageController(IUpdatesHandler updatesHandler, IRollbar rollbar)
         {
             _updatesHandler = updatesHandler;
+            _rollbar = rollbar;
         }
 
         [HttpPost("")]
@@ -29,7 +29,7 @@ namespace Telegram.Bot.AspNetCore.Controllers
             }
             catch (Exception exception)
             {
-                await Rollbar.Critical(exception, new Dictionary<string, object> { { "update", update } });
+                await _rollbar.Critical(exception, new Dictionary<string, object> { { "update", update } });
             }
 
             return Ok();
