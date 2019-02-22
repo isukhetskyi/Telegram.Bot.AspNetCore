@@ -16,7 +16,7 @@ namespace Telegram.Bot.AspNetCore
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
-                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+                .AddJsonFile("appsettings.json", true, true);
 
             var configuration = builder.Build();
             AppSettings = configuration.GetSection("AppSettings");
