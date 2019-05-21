@@ -9,7 +9,7 @@ using Telegram.Bot.Types;
 namespace Telegram.Bot.AspNetCore.Controllers
 {
     [ApiController]
-    public class MessageController : ControllerBase
+    public class MessageController : Controller
     {
         private readonly IUpdatesHandler _updatesHandler;
         private readonly IRollbar _rollbar;

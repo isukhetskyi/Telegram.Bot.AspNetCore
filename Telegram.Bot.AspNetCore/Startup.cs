@@ -48,10 +48,6 @@ namespace Telegram.Bot.AspNetCore
             }
 
             app.UseHttpsRedirection();
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute("default", "{controller=Message}");
-            });
         }
     }
 }
